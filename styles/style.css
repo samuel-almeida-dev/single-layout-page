@@ -2,6 +2,25 @@ body {
     margin: 0 0;
     padding: 0;
 }
+
+body a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Altera o fundo para um tom mais escuro ao passar o mouse */
+    border-color: rgba(0, 0, 0, 0.1); /* Altera a cor da borda ao passar o mouse */
+    animation: pulse 0.4s infinite; /* Aplica a animação de pulsação */
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0px 0px 0px 0px rgb(0, 255, 13); /* Começa sem sombra */
+    }
+    50% {
+      box-shadow: 0px 0px 80px 10px rgba(255, 0, 0, 0.7); /* Adiciona uma sombra pulsante */
+    }
+    100% {
+      box-shadow: 0px 0px 0px 0px rgba(31, 253, 253, 0.7); /* Retorna para sem sombra */
+    }
+  }
+
 .header-top-section {
     height: 100px;
     display: flex;
@@ -44,8 +63,11 @@ body {
 
 .nav-menu a {
     color: white;
+    border: 1px solid color(black);
+    padding: 0px 4px;
+    border-radius: 4px;
     text-decoration: none;
-    transition: transform .3s;
+    transition: transform .4s;
 }
 
 .nav-menu a:hover {
@@ -84,6 +106,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    transition: box-shadow 0.8s; /* Adiciona transição suave na sombra */
+}
+
+.main-article:hover {
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra ao botão ao passar o mouse */
+    
 }
 
 .img-fixed-size {
