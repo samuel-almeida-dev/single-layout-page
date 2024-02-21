@@ -11,3 +11,7 @@ Este repositório contém uma [página web de layout único](https://samuel-alme
 -  Utilização de redirecionamento por meio de sections com ids
 - Estruturação e estilização de uma página de layout único
 - Demonstração de habilidades de design responsivo
+
+## Próximas etapas
+- Finalização do Footer
+- Adição do media query para ajuste de resolução em diferente dispositivos
