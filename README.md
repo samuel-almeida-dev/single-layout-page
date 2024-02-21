@@ -4,7 +4,8 @@ Este repositório contém uma [página web de layout único](https://samuel-alme
 - Observação: As imagens não estão sendo renderizadas no GitHub Page.
 
 ## Demonstração da página
-![image](https://github.com/samuel-almeida-dev/single-layout-page/assets/130515347/3774abec-92de-445d-88b8-4ff655b43ace)
+![image](https://github.com/samuel-almeida-dev/single-layout-page/assets/130515347/b6fd13bf-84b0-4345-976f-89f805a1fb0b)
+
 
 ## Recursos e Funcionalidades  
 - Prática de HTML e CSS
